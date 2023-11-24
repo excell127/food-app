@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .app-container {
+    @apply px-3 py-10 max-w-[1200px] mx-auto;
+  }
+
+  .app-container-sm {
+    @apply px-3 py-10 max-w-[1000px] mx-auto;
+  }
+
+  * {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .background-overlay {
+    @apply brightness-[.25];
+  }
+}
